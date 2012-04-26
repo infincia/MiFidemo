@@ -5,13 +5,7 @@ api_version: 1
 
 handlers:
 
-- url: /login.cgi
-  script: main.py
-
 - url: /getStatus.cgi
-  script: main.py
-
-- url: /modemstatus.html
   script: main.py
 
 - url: .*
