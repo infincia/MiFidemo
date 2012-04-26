@@ -1,6 +1,8 @@
 ## Mi-Fi demo API provider
 
-This is a simple but invaluable AppEngine tool for simulating the Mi-Fi CGI interface for querying status from the device, allowing 3rd party apps like Mi-Fi Monitor for Mac and Mi-Fi Monitor for iOS to test functionality without having a working device available (comes in handy when asking Apple to review an app without sending them hardware)
+This is a simple but invaluable AppEngine tool for simulating the Mi-Fi CGI interface for querying status from the device.
+
+I created this thing to test 3rd party apps like [Mi-Fi Monitor for Mac](http://infincia.com/apps/mi-fi-monitor-mac) and [Mi-Fi Monitor for iOS](http://infincia.com/apps/mi-fi-monitor-ios) to test functionality without having a working device available (comes in handy when asking Apple to review an app without sending them hardware)
 
 If you need this thing, you already know why. If you just want to see an example of faking an API using AppEngine, here you go, have fun :)
 
@@ -21,4 +23,4 @@ Note the esc character separating each key=value pair, make sure you parse this 
 
 ###Note about the debug handler
 
-There is a small section of code here that handles debug data for the Mac version of Mi-Fi Monitor, just ignore it. It's a simple email bouncing system that has nothing to do with the API
+There is a small section of code here that handles debug data for [Mi-Fi Monitor for Mac](http://infincia.com/apps/mi-fi-monitor-mac), just ignore it. It's a simple email bouncing system that has nothing to do with the API
